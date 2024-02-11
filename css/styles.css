@@ -11,6 +11,7 @@
   --grey: rgba(46, 47, 66, 0.7);
   --white: #fff;
   --dairy: #fcfcfc;
+  --box-shadow: rgba(0, 0, 0, 0.15);
 
   --font-family: 'Roboto', sans-serif;
   --second-family: 'Raleway', sans-serif;
@@ -34,9 +35,7 @@ ul {
   list-style-type: none;
 }
 
-button {
-  cursor: pointer;
-}
+
 
 /* start - header__logo */
 .logo {
@@ -86,3 +85,56 @@ address {
 }
 
 /* finished - address */
+
+
+/* start - hero section */
+
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero__title {
+  font-style: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02;
+  text-align: center;
+  color: var(--white);
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  font-family: var(--font-family);
+  background-color: var(--iris);
+  box-shadow: 0 4px 4px 0 var(--box-shadow);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  width: 169px;
+  height: 56px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+
+/* finished - hero section */
+
+/* start - quality section */
+
+.quality-list__title {
+  font-weight: 500;
+  font-style: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.quality-list__description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
