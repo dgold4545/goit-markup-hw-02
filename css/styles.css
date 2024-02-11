@@ -47,7 +47,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-
 }
 
 .logo_colored {
@@ -66,20 +65,20 @@ button {
 
 .header__link:hover,
 .header__link:focus {
-  color: var(--ocean)
+  color: var(--ocean);
 }
 
 /* finished - header__nav */
 
 /* start - address */
-
+address {
+  font-style: normal;
+}
 .address__contact {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  font-style: normal;
 }
-
 
 .address__contact:hover,
 .address__contact:focus {
