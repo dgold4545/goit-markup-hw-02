@@ -22,7 +22,8 @@ font-family: 'Roboto', sans-serif; */
 body {
   font-family: var(--font-family), sans-serif;
   background-color: var(--white);
-  color: var(--navy-blue);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 a {
@@ -42,15 +43,16 @@ button {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: var(--iris);
+
 }
 
 .logo_colored {
   font-family: var(--second-family);
-  color: var(--iris);
+  color: var(--navy-blue);
 }
 /* finished - header__logo  */
 
