@@ -35,8 +35,6 @@ ul {
   list-style-type: none;
 }
 
-
-
 /* start - header__logo */
 .logo {
   font-family: var(--second-family);
@@ -85,7 +83,6 @@ address {
 }
 
 /* finished - address */
-
 
 /* start - hero section */
 
@@ -156,8 +153,6 @@ address {
   color: var(--navy-blue);
 }
 
-
-
 .team-list__title {
   font-weight: 500;
   font-size: 20px;
@@ -171,5 +166,32 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--slate);
+}
+
+/* finished - team section */
+
+/* start - portfolio section */
+
+.portfolio__title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.portfolio-list__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.portfolio-list__description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
